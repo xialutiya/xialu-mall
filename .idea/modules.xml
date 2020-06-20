@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tuling-mall.iml" filepath="$PROJECT_DIR$/tuling-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingmall-common/tulingmall-common.iml" filepath="$PROJECT_DIR$/tulingmall-common/tulingmall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingmall-mbg/tulingmall-mbg.iml" filepath="$PROJECT_DIR$/tulingmall-mbg/tulingmall-mbg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingmall-security/tulingmall-security.iml" filepath="$PROJECT_DIR$/tulingmall-security/tulingmall-security.iml" />
+    </modules>
+  </component>
+</project>

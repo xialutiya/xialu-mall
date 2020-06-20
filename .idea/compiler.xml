@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tulingmall-common" />
+        <module name="tulingmall-security" />
+        <module name="tulingmall-mbg" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tuling-mall" target="1.8" />
+      <module name="tulingmall-common" target="1.8" />
+      <module name="tulingmall-mbg" target="1.8" />
+      <module name="tulingmall-security" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tulingmall-common" options="-parameters" />
+      <module name="tulingmall-mbg" options="-parameters" />
+      <module name="tulingmall-security" options="-parameters" />
+    </option>
+  </component>
+</project>
